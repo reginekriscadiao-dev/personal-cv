@@ -7,7 +7,7 @@
 | Set/Section | BSIT 4B |
 | Subject | IT415 - Application Development and Emerging Technologies |
 
-A responsive personal CV webpage with a warm ivory and plum design, profile section, education timeline, creative toolkit, and GitHub contact link.
+A responsive personal CV webpage with a soft lavender and purple design, profile section, education timeline, creative toolkit, and GitHub contact link.
 
 ## Open the webpage
 

@@ -1,10 +1,10 @@
 /* Theme: change these variables to personalize the entire page. */
 :root {
-  --paper:#f8f6f1;
-  --ink:#302b2d;
-  --muted:#77706f;
-  --plum:#634653;
-  --line:#e3ddd6;
+  --paper:#faf7ff;
+  --ink:#30263f;
+  --muted:#746981;
+  --plum:#7950a5;
+  --line:#e5dbee;
   --serif:Georgia,'Times New Roman',serif
 }
 
@@ -33,7 +33,7 @@ a {
 }
 
 a:focus-visible {
-  outline:3px solid #b88347;
+  outline:3px solid #9063bf;
   outline-offset:6px
 }
 
@@ -63,7 +63,7 @@ a:hover {
 }
 
 .brand span {
-  color:#a87955
+  color:#966bc1
 }
 
 nav {
@@ -103,9 +103,9 @@ nav {
 .status-dot {
   width:7px;
   height:7px;
-  background:#84917b;
+  background:#9569c4;
   border-radius:50%;
-  box-shadow:0 0 0 4px #84917b15
+  box-shadow:0 0 0 4px #9569c415
 }
 
 h1,h2,h3,p {
@@ -160,7 +160,7 @@ em {
 
 .button:hover {
   color:white;
-  background:#49323e;
+  background:#583578;
   transform:translateY(-2px)
 }
 
@@ -182,7 +182,7 @@ em {
 }
 
 .hero-details span+span {
-  border-left:1px solid #cbc2b9;
+  border-left:1px solid #d5c5e5;
   padding-left:18px
 }
 
@@ -192,13 +192,13 @@ em {
 }
 
 .portrait-frame {
-  background:#e9e1d8;
+  background:#e9ddf5;
   border-radius:150px 150px 9px 9px;
   position:relative;
   overflow:hidden;
   transform:rotate(3deg);
-  border:8px solid #fffdf9;
-  box-shadow:0 15px 35px #49323e0a
+  border:8px solid #fefcff;
+  box-shadow:0 15px 35px #5835780a
 }
 
 .portrait {
@@ -216,7 +216,7 @@ em {
   text-align:center;
   font-size:8px;
   letter-spacing:2px;
-  color:#665750
+  color:#685579
 }
 
 .sparkle {
@@ -224,7 +224,7 @@ em {
   right:-12px;
   top:5px;
   font-size:77px;
-  color:#a98458;
+  color:#aa7ed2;
   line-height:1
 }
 
@@ -232,14 +232,14 @@ em {
   position:absolute;
   bottom:33px;
   left:-25px;
-  background:#fffdf9;
+  background:#fefcff;
   border:1px solid var(--line);
   border-radius:7px;
   display:flex;
   align-items:center;
   gap:13px;
   padding:15px 20px;
-  box-shadow:0 8px 30px #302b2d08
+  box-shadow:0 8px 30px #30263f08
 }
 
 .badge-icon {
@@ -308,7 +308,7 @@ h2 {
   font-size:35px;
   justify-self:end;
   position:relative;
-  color:#9e8276
+  color:#a084b9
 }
 
 .mini-mark span {
@@ -331,7 +331,7 @@ h2 {
 .timeline {
   margin-top:31px;
   margin-left:5px;
-  border-left:1px solid #d7ccc4;
+  border-left:1px solid #dbcbea;
   padding-left:25px
 }
 
@@ -350,7 +350,7 @@ h2 {
   width:7px;
   height:7px;
   border:3px solid var(--paper);
-  background:#957564;
+  background:#9769bf;
   border-radius:50%;
   left:-32px;
   top:5px
@@ -367,8 +367,8 @@ h2 {
 }
 
 .pill {
-  background:#e8ede3;
-  color:#556548;
+  background:#eee3f8;
+  color:#70448f;
   padding:3px 9px;
   border-radius:20px;
   font-size:8px;
@@ -409,7 +409,7 @@ h3 {
   align-items:center;
   gap:17px;
   padding:17px;
-  background:#fffdf9;
+  background:#fefcff;
   border:1px solid var(--line);
   border-radius:8px;
   margin-bottom:12px
@@ -425,15 +425,15 @@ h3 {
 }
 
 .canva {
-  background:#e6e5ee;
-  color:#78628c;
+  background:#eee2fb;
+  color:#8253ac;
   font-family:var(--serif);
   font-style:italic
 }
 
 .capcut {
-  background:#ece8e3;
-  color:#3c3538;
+  background:#ede6f7;
+  color:#5d3a7b;
   font-size:36px
 }
 
@@ -450,7 +450,7 @@ h3 {
 
 .tool-arrow {
   margin-left:auto;
-  color:#a29990
+  color:#a48bb9
 }
 
 .interest-tags {
@@ -471,8 +471,8 @@ h3 {
 .contact-panel {
   position:relative;
   overflow:hidden;
-  background:#5c424e;
-  color:#fff9f4;
+  background:#623b85;
+  color:#fcf8ff;
   border-radius:10px;
   padding:40px 46px;
   display:flex;
@@ -482,7 +482,7 @@ h3 {
 }
 
 .contact-panel .eyebrow {
-  color:#dcc7ca;
+  color:#dfcdee;
   margin-bottom:16px
 }
 
@@ -492,17 +492,17 @@ h3 {
 }
 
 .contact-panel em {
-  color:#e7c9b6
+  color:#dec3f7
 }
 
 .contact-panel p:last-child {
   font-size:12px;
-  color:#e0cdd2;
+  color:#e5d4f2;
   margin:0
 }
 
 .light-button {
-  background:#faf5ed;
+  background:#f8f0ff;
   color:var(--plum);
   position:relative;
   z-index:1
